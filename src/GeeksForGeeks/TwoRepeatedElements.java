@@ -1,3 +1,4 @@
+package GeeksForGeeks;
 import java.util.*;
 import java.lang.*;
 import java.io.*;
@@ -12,7 +13,7 @@ class GFG {
 	    for(int i= 0; i<testcases;i++){
 	        int range = in.nextInt();
 	        
-	        int[] intarr = new int[];
+	        int[] intarr = new int[range];
 	        for(int j=0;j<range+2;j++){
 	            intarr[j] = in.nextInt();
 	            
